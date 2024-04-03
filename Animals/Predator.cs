@@ -42,7 +42,7 @@ namespace PredatorClass{
 
         public override string ToString()
         {
-            return $"{name} {type} {PredatorClaws.sharpness} {PredatorTeeth.count}";
+            return $"{name} {type} гострота {PredatorClaws.sharpness} к-ть зубів {PredatorTeeth.count}";
         }
 
         public override bool Equals(object? obj)

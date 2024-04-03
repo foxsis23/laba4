@@ -15,7 +15,7 @@ namespace TeethClass{
 
         public override string ToString()
         {
-            return $"гострота {sharpness} к-ть {count} зубів";
+            return $"гострота {sharpness} к-ть зубів {count}";
         }
 
         public override bool Equals(object? obj)

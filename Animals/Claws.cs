@@ -16,7 +16,7 @@ namespace ClawsClass{
 
         public override string ToString()
         {
-            return $"гострота {sharpness} довжина {length} кігтей";
+            return $"гострота {sharpness} довжина кігтей {length}";
         }
 
         public override bool Equals(object? obj)
